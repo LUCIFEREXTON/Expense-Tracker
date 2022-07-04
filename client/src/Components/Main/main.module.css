@@ -1,0 +1,13 @@
+:root {
+    --blue: #3AB0FF;
+    --white: #F9F2ED;
+    --orange: #FFB562;
+    --pink: #F87474;
+}
+
+.fixscreen {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+}
