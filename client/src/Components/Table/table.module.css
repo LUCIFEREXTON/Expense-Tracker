@@ -1,0 +1,31 @@
+table {
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+    border-spacing: 0;
+}
+
+thead tr {
+    color: var(--pink);
+    font-weight: bold;
+}
+
+thead tr td {
+    border-bottom: 1px solid var(--pink);
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+.nodata {
+    background: white;
+    padding: 10px;
+    text-align: center;
+    height: 30vh;
+    line-height: 30vh;
+    font-size: 2rem;
+    color: #b5acac;
+}

@@ -1,13 +1,40 @@
-:root {
-    --blue: #3AB0FF;
-    --white: #F9F2ED;
-    --orange: #FFB562;
-    --pink: #F87474;
-}
-
 .fixscreen {
     width: 100%;
     max-width: 900px;
     margin: auto;
+    overflow: auto;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 20px;
     background-color: white;
+}
+
+.addbtn {
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 50%;
+    width: 2rem;
+    min-width: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2rem;
+    aspect-ratio: 1/1;
+    line-height: 2rem;
+}
+
+.search input[type="text"] {
+    max-width: calc(100vw - 2rem - 90px);
+    outline: none;
+    border: none;
+    background: var(--white);
+    font-size: 1.5rem;
+    padding: 0.2rem 1rem;
+    border-radius: 1rem;
+    line-height: 1.5rem;
+    box-shadow: inset 0px 6px 9px -8px var(--orange);
 }
